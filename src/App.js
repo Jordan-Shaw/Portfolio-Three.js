@@ -22,16 +22,20 @@ class App extends Component {
     })
 
     let geometry = new THREE.BoxGeometry();
-    let material = new THREE.MeshLambertMaterial({ color: 0x00ff00 });
+    let material = new THREE.MeshLambertMaterial({ color: 0x00ff00 })
     let cube = new THREE.Mesh(geometry, material);
+    let light = new THREE.PointLight(0xFFFFFF, 1, 500)
+    light.position.set(10, 0, 25);
+    scene.add(light);
+
     scene.add(cube);
 
     camera.position.z = 5;
 
     function animate() {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.05;
-      cube.rotation.y += 0.05;
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
       renderer.render(scene, camera);
     }
 
