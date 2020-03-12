@@ -6,12 +6,17 @@ export default class Scene extends Component {
 
   componentDidMount() {
     let scene = new THREE.Scene();
-    let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    let camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 1000);
+
+
+
+
     let renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setClearColor("#e5e5e5")
-
     renderer.setSize(window.innerWidth, window.innerHeight);
     this.mount.appendChild(renderer.domElement);
+
+
 
     window.addEventListener('resize', () => {
       renderer.setSize(window.innerWidth, window.innerHeight);
@@ -20,7 +25,7 @@ export default class Scene extends Component {
       camera.updateProjectionMatrix();
     })
 
-    const makeCubeInstance = (geometry, colour, x, y) => {
+    const makeCubeInstance = (geometry, colour, x, y, z) => {
       const material = new THREE.MeshPhongMaterial({ color: colour });
 
       const cube = new THREE.Mesh(geometry, material);
@@ -28,19 +33,20 @@ export default class Scene extends Component {
 
       cube.position.x = x;
       cube.position.y = y
+      cube.position.z = z
 
       return cube;
     }
 
-    const boxWidth = 1;
-    const boxHeight = 1;
-    const boxDepth = 1;
+    const boxWidth = 0.5;
+    const boxHeight = 0.5;
+    const boxDepth = 0.5;
     const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
 
     const cubes = [
-      makeCubeInstance(geometry, 0xFFDFD3, 0, 2),
-      makeCubeInstance(geometry, 0x957DAD, 0, 0),
-      makeCubeInstance(geometry, 0xFEC8D8, 0, -2)
+      makeCubeInstance(geometry, 0xFFDFD3, -1, -1, 0),
+      makeCubeInstance(geometry, 0x957DAD, 0, -1, 0),
+      makeCubeInstance(geometry, 0xFEC8D8, 1, -1, 0)
     ]
 
     let light = new THREE.PointLight(0xFFFFFF, 1, 250)
@@ -49,25 +55,32 @@ export default class Scene extends Component {
 
     camera.position.z = 5;
 
-    function animate() {
-      requestAnimationFrame(animate);
-      cubes.forEach(cube => {
-        cube.rotation.x += 0.01;
-        cube.rotation.y += 0.01;
+    function animate(time) {
+      const refactoredTime = time *= 0.001;
+      cubes.forEach((cube, ndx) => {
+        console.log(ndx)
+        const speed = 1 + ndx * 0.1;
+        const rot = refactoredTime * speed;
+
+        cube.rotation.x = rot;
+        cube.rotation.y = rot;
       })
 
       renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+
     }
+    requestAnimationFrame(animate);
 
-    console.log(this.camera)
+    // console.log(this.camera)
 
-    animate();
+    // animate();
   }
 
   render() {
     return (
       <div>
-        <div ref={ref => (this.mount = ref)} />
+        <div ref={ref => (this.mount = ref)} className="scene" />
       </div>
     )
   }
