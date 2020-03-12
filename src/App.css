@@ -1,5 +1,47 @@
+body, #root, .App {
+  height: 100%;
+  width: 100%;
+}
+
+
+
 body { margin: 0; }
+
 canvas { 
   display: block;
-  z-index: 5;
- }
+  z-index: -5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  background-color: lavender;
+}
+
+.project_title {
+  width: fit-content;
+  margin: 5px;
+}
+
+.interface {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.interface_image {
+  width: 50%;
+  height: 40%;
+  position: relative;
+  right: 0;
+}
