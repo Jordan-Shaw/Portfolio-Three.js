@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 // import ReactDOM from "react-dom";
 import './App.css';
 import Scene from './Components/Scene';
+import Header from './Components/Header';
+import Interface from './Components/Interface';
 
 class App extends Component {
 
@@ -17,9 +19,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-        </header>
-        <Scene />
+        <Header />
+        <Interface />
+        {/* <Scene /> */}
       </div>
     );
   }
