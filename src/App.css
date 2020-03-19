@@ -3,7 +3,10 @@ body, #root, .App {
   width: 100%;
 }
 
-
+.background {
+  position: fixed;
+  width: 100%;
+}
 
 body { margin: 0; }
 
@@ -20,10 +23,35 @@ canvas {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   z-index: 0;
-  background-color: lavender;
 }
+
+#forename {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  font-size: 120pt;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+#surname {
+  font-size: 120pt;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  padding-left: 25%;
+}
+
+#jobTitle {
+  z-index: 1;
+  padding-left: 35%;
+  font-size: 60pt;
+}
+
 
 .project_title {
   width: fit-content;
@@ -44,4 +72,8 @@ canvas {
   height: 40%;
   position: relative;
   right: 0;
+}
+
+.scene {
+  height: 100vh;
 }

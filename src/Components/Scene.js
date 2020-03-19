@@ -38,7 +38,7 @@ export default class Scene extends Component {
       return cube;
     }
 
-    const boxWidth = 0.5;
+    const boxWidth = 1;
     const boxHeight = 0.5;
     const boxDepth = 0.5;
     const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
@@ -74,13 +74,12 @@ export default class Scene extends Component {
 
     // console.log(this.camera)
 
-    // animate();
+    animate();
   }
 
   render() {
     return (
-      <div>
-        <div ref={ref => (this.mount = ref)} className="scene" />
+      <div ref={ref => (this.mount = ref)} className="scene">
       </div>
     )
   }

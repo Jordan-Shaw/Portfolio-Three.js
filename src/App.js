@@ -21,7 +21,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Interface />
-        {/* <Scene /> */}
+        <Scene />
       </div>
     );
   }

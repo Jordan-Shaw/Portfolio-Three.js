@@ -1,0 +1,59 @@
+<svg width="820" height="560" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="svg_11_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="562" width="822" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path filter="url(#svg_11_blur)" id="svg_1" d="m-40,56.499992l30.428726,-63.499992l81.142563,0l30.428711,63.499992l-30.428711,63.500008l-81.142563,0l-30.428726,-63.500008z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_2" d="m85.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path filter="url(#svg_11_blur)" id="svg_4" d="m-40,206.5l30.428726,-63.5l81.142563,0l30.428711,63.5l-30.428711,63.5l-81.142563,0l-30.428726,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path filter="url(#svg_11_blur)" id="svg_5" d="m-40,357.5l30.428726,-63.5l81.142563,0l30.428711,63.5l-30.428711,63.5l-81.142563,0l-30.428726,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_6" d="m85.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_7" d="m84.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_10" d="m83.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path filter="url(#svg_11_blur)" id="svg_12" d="m-40,503.25l30.428726,-63.5l81.142563,0l30.428711,63.5l-30.428711,63.5l-81.142563,0l-30.428726,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_14" d="m83.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_25" d="m85.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_26" d="m85.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_27" d="m84.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_30" d="m83.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.91" filter="url(#svg_11_blur)" id="svg_32" d="m83.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.8" filter="url(#svg_11_blur)" id="svg_34" d="m210,56.499992l30.428711,-63.499992l81.142578,0l30.428711,63.499992l-30.428711,63.500008l-81.142578,0l-30.428711,-63.500008z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_35" d="m335.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.8" filter="url(#svg_11_blur)" id="svg_36" d="m210,206.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.8" filter="url(#svg_11_blur)" id="svg_37" d="m210,357.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_38" d="m335.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_39" d="m334.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_40" d="m333.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.8" filter="url(#svg_11_blur)" id="svg_41" d="m210,503.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_42" d="m333.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_43" d="m335.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_44" d="m335.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_45" d="m334.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_46" d="m333.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.41" filter="url(#svg_11_blur)" id="svg_47" d="m333.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.34" filter="url(#svg_11_blur)" id="svg_48" d="m459,56.499992l30.428711,-63.499992l81.142578,0l30.428711,63.499992l-30.428711,63.500008l-81.142578,0l-30.428711,-63.500008z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_49" d="m584.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.34" filter="url(#svg_11_blur)" id="svg_50" d="m459,206.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.34" filter="url(#svg_11_blur)" id="svg_51" d="m459,357.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_52" d="m584.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_53" d="m583.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_54" d="m582.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.34" filter="url(#svg_11_blur)" id="svg_55" d="m459,503.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_56" d="m582.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_57" d="m584.75,131.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_58" d="m584.75,-19.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_59" d="m583.75,282.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_60" d="m582.75,431.5l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+  <path opacity="0.11" filter="url(#svg_11_blur)" id="svg_61" d="m582.75,578.25l30.428711,-63.5l81.142578,0l30.428711,63.5l-30.428711,63.5l-81.142578,0l-30.428711,-63.5z" stroke-width="1.5" stroke="#ffffff" fill="#FFF093"/>
+ </g>
+</svg>
